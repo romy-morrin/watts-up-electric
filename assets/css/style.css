@@ -2,14 +2,14 @@
 
 body {
     font-family: 'Nunito', sans-serif;
+    padding-top: 75px;
 }
 
 
 /*-------------------------nav--*/
 
 .nav-bar {
-    margin: auto;
-    padding: 0;
+
 }
 .nav-link {
     color: #6c757d;
@@ -20,6 +20,11 @@ body {
 }
 
 /*-------------------------home--*/
+
+.jumbotron {
+    background-color: transparent;
+    float: right;
+}
 
 /*-------------------------services--*/
 
