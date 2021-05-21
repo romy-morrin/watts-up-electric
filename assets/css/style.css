@@ -7,6 +7,7 @@ body {
 }
 
 h1 {
+    font-size: 80px;
 
 }
 
@@ -59,14 +60,10 @@ p {
     
 }
 
-.home p {
-    font-size: large;
-    
-}
 /*-------------------------services--*/
 
 .services-header {
-    font-size: large;
+    font-size: xx-large;
     text-align: center;
 }
 
