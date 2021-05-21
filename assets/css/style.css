@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto&display=swap');
 
-* {
-    margin: 0;
-    padding:0;
-    border: 0;
-}
+
 
 body {
     font-family: 'Quicksand', sans-serif;
@@ -18,7 +14,6 @@ p {
 
 }
 
-
 /*-------------------------nav--*/
 
 .navbar {
@@ -27,7 +22,6 @@ p {
 
 .nav-link {
     color: #6c757d;
-    text-decoration: underline;
 }
 
 .nav-link:hover {
@@ -56,7 +50,7 @@ p {
 }
 
 .jumbotron {
-    background-color: #fafafa;
+    background-color: #fff;
 }
 
 .logo {
@@ -70,6 +64,17 @@ p {
     
 }
 /*-------------------------services--*/
+
+.services-header {
+    font-size: large;
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    
+}
 
 /*-------------------------about--*/
 
