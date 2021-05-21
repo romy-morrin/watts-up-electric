@@ -37,7 +37,7 @@ p {
 
 .home-container {
     height: 100vh;
-    width: 100%;
+    max-width: 100%;
     background-image: url(../images/hero-image.jpeg);
     background-position: no-repeat top left fixed;
     background-size: cover;
@@ -54,6 +54,8 @@ p {
 }
 
 .logo {
+    max-width: 100%;
+    height: auto;
     
 }
 
