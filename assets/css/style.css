@@ -75,8 +75,6 @@ p {
 }
 
 .services-container {
-    margin: 0;
-    max-width: 100%;
 }
 
 /*-------------------------about--*/
@@ -90,7 +88,7 @@ p {
 }
 
 .about-section {
-    background-color: #d1d1d1;
+    background-color: #c1c1c1;
 }
 
 /*-------------------------contact--*/
