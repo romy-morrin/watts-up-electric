@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
+    position: relative;
 }
 
 h1 {
@@ -69,12 +70,11 @@ p {
 .services-header {
 }
 
-}
-.services-image {
-    padding: 0;
+.services-container {
 }
 
-.services-container {
+.services-container li {
+    list-style-type: none;
 }
 
 /*-------------------------about--*/
