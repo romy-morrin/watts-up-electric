@@ -88,5 +88,9 @@ p {
 
 /*-------------------------contact--*/
 
+#contact li {
+    list-style-type: none;
+}
+
 
 

@@ -140,13 +140,95 @@
 
     <!--contact-->
     <section id="contact">
-        <h1 class="text-center">Contact</h1>
+
+        <!--contact heading-->
+        <div class="container-fluid contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <h1>Contact</h1>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <!--form-->
+        <div class="container-fluid form">
+            <p class="text-center">Get in touch and let us know what services you need!</p>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <form name="contact-form">
+                            
+                            <div class="row">
+                                <div class="col-12">
+                                        <input type="text" id="fname" name="fname" placeholder="First name" class="form-control" required>
+                                        <input type="text" id="lname" name="lname" placeholder="Last name" class="form-control" required>
+                                        <input type="email" id="email" name="email" placeholder="Email" class="form-control" required>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="fname">What type of services are required?</label>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                        <label class="form-check-label" for="gridRadios1">
+                                        Household Services
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                        <label class="form-check-label" for="gridRadios2">
+                                        Commercial Services
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                                        <label class="form-check-label" for="gridRadios3">
+                                        Other
+                                        </label>
+                                </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">Any other relevant info i.e your location, specific requirements etc</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                      </div>    
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-success">Submit</button>
+                        </form>
+                    </div>
+        <!--contact details-->
+                    <div class="col-sm-5 text-center">
+                        <h2>Our Contact Details</h2>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>wattsupelectric@gmail.com</p>
+                            </li>
+                            <li>
+                                <p>(555)5454545</p>
+                            </li>
+                            <li>
+                                <p>Naas, Co Kildare</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
 
     </section>
     <!--/contact-->
 
     <footer>
-
+        <p>Watts up electric</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
