@@ -73,7 +73,7 @@ p {
 .services-container {
 }
 
-.services-container li {
+#services li {
     list-style-type: none;
 }
 
