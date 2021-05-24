@@ -51,7 +51,6 @@ p {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    position: relative;
 
     display: flex;
     align-items: center;
@@ -61,11 +60,12 @@ p {
 
 .jumbotron {
     background: #f8f9fa;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .logo {
     max-width: 100%;
-    height: auto;
+    
     
 }
 
@@ -73,6 +73,10 @@ p {
 
 .services {
     max-width: 100%;
+    margin: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+
 }
 
 #services li {
@@ -93,5 +97,12 @@ p {
     list-style-type: none;
 }
 
+/*-------------------------footer--*/
+footer {
+    background-color: #c1c1c1;
+    min-height: 80px;
+    text-align: center;
+    padding-top: 20px;
 
+}
 
