@@ -28,6 +28,7 @@ p {
 .navbar {
     font-family: 'Quicksand', sans-serif;
     margin: 0;
+    padding: 0;
 }
 
 .nav-link {
@@ -40,7 +41,7 @@ p {
 
 /*-------------------------home--*/
 
-.home-container {
+.home {
     height: 100vh;
     max-width: 100%;
     background-image: url(../images/hero-image.jpeg);
@@ -65,17 +66,14 @@ p {
 
 .logo {
     max-width: 100%;
-    
-    
 }
 
 /*-------------------------services--*/
 
 .services {
-    max-width: 100%;
+    font-family: 'Quicksand', sans-serif;
     margin: 0;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 25px;
 
 }
 
@@ -88,7 +86,8 @@ p {
 
 .about {
     background-color: #c1c1c1;
-    max-width: 100%;
+    padding: 25px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 /*-------------------------contact--*/
@@ -97,12 +96,19 @@ p {
     list-style-type: none;
 }
 
+.contact {
+    padding: 25px;
+}
+
+
+
 /*-------------------------footer--*/
 footer {
     background-color: #c1c1c1;
     min-height: 80px;
     text-align: center;
     padding-top: 20px;
+    font-family: 'Quicksand', sans-serif;
 
 }
 
