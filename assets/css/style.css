@@ -17,10 +17,7 @@ article {
 }
 
 h1 {
-    font-size: 80px;
-    margin: 0;
-    padding: 0;
-
+    font-size: 1.75rem;
 }
 
 p {
@@ -89,6 +86,11 @@ p {
     list-style-type: none;
 }
 
+.btn-services {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
 /*-------------------------about--*/
 
 
@@ -120,3 +122,12 @@ footer {
 
 }
 
+/*-------------------------mediaqueries--*/
+
+@media screen and (max-width: 320px) {
+    
+    #services {
+        font-size: 1.2rem;
+    }
+    
+}
