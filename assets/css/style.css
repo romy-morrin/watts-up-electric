@@ -125,12 +125,25 @@ footer {
 
 @media screen and (max-width: 375px) {
     
-    #services, #contact, #about {
+    #services {
         font-size: 1.5rem;
-        padding: 5px;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 0;
+        padding: 0;
+
     }
+
+    #about {
+        font-size: 1.5rem;
+        margin: 0;
+        padding: 2px;
+    }
+
+    #contact {
+        font-size: 1.3rem;
+        padding: 2.5px;
+        margin: 0;
+    }
+
     
 }
 
