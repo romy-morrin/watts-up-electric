@@ -123,17 +123,10 @@ footer {
 
 /*-------------------------mediaqueries--*/
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
     
-    #services {
-        font-size: 1.2rem;
-        padding: 5px;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    #contact  {
-        font-size: 1.2rem;
+    #services, #contact, #about {
+        font-size: 1.5rem;
         padding: 5px;
         margin-left: 0;
         margin-right: 0;
