@@ -6,6 +6,8 @@
     border: 0;
 }
 
+/*-------------------------html--*/
+
 body {
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
@@ -28,7 +30,7 @@ p {
 .navbar {
     font-family: 'Quicksand', sans-serif;
     margin: 0;
-    padding: 5px;
+    padding: 0;
     font-size: 1.5rem;
     color: #343a40;
     font-weight: 700;
@@ -77,12 +79,15 @@ p {
     font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 25px;
-
 }
-
 
 #services li {
     list-style-type: none;
+}
+
+.services-img {
+    width: 370px; 
+    height: 230px;
 }
 
 .btn-services {
@@ -99,6 +104,11 @@ p {
     font-family: 'Quicksand', sans-serif;
 }
 
+.about-img {
+    width: 370px; 
+    height: 230px;
+}
+
 /*-------------------------contact--*/
 
 #contact li {
@@ -106,10 +116,9 @@ p {
 }
 
 .contact {
+    font-family: 'Quicksand', sans-serif;
     padding: 25px;
 }
-
-
 
 /*-------------------------footer--*/
 footer {
@@ -121,7 +130,7 @@ footer {
 
 }
 
-/*-------------------------mediaqueries--*/
+/*-------------------------media-queries--*/
 
 @media screen and (max-width: 375px) {
     
@@ -130,7 +139,6 @@ footer {
         margin: 0;
         padding: 0;
         line-height: 1.4;
-
     }
 
     #about {
@@ -145,6 +153,5 @@ footer {
         margin: 0;
     }
 
-    
 }
 
