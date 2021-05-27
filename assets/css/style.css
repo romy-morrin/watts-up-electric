@@ -168,6 +168,7 @@ footer {
         /*-----background position found on CSS Tricks - perfect full page bg img---*/
         background-repeat: no repeat;
         background-position: left bottom;
+        background-attachment: scroll;
     
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -178,7 +179,6 @@ footer {
         display: flex;
         align-items: center;
         justify-content: center;
-    
     }
     
 
