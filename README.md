@@ -69,7 +69,23 @@ I used Google fonts "Quicksand" and paired it with "Roboto", however I decided n
 
 ### Existing Features
 
+#### Navigation Bar
+
+The Navigation bar used displays the 4 sections of the website labelled "Home, Services, About, Contact". Bootstrap 4.6 helped me construct the navigation bar. I also used Bootstrap's toggle function so that the nav bar changes to a hamburger menu when shown on a mobile device. I initially add the navigation links to the left hand side of the menu on desktop view and then decided to position them to the centre of the menu as this added to the sites accessiblity. The nav links have a slightly bolder font weight than other text on the site. This again adds more it's readability and accessbility. When clicked on, each link will bring the user to the respective section. 
+
+#### Home Section
+
+#### Services Section
+
+#### About Section
+
+#### Contact Section
+
+#### Footer
+
 ### Features left to implement
+
+Testimonial page, social media links
 
 ## Technologies Used
 
