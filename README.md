@@ -26,7 +26,7 @@ As a business owner, I want my website to clearly show the services I can provid
 When designing the website, my main objectivce was to keep the layout as simple as possible while providing all the necessary information. Completing the user stories was a great way to prioritise the content need to contruct the main sections of the site.
 
 ### Scope
-
+When meeting with the business owner, we discussed what information was fundamental to the website and what design layout would best suit the structure of the website. We discussed the services that needed to be listed, the informtation needed to give a brief history of the company and the best methods for potential customers to contact the company. I spoke with family members and friends who would be potential customers and what they thought would be necessary in an electricians website if they ever needed one. Most said that they would want an easy, accessible website that would show them the services provided and a simple way of getting in contact with the company. 
 
 ### Structure
 
