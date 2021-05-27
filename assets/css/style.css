@@ -48,17 +48,18 @@ p {
 
 .home {
     height: 100vh;
-    max-width: 100%;
+    width: 100%;
     background-image: url(../images/hero-image.jpeg);
-    /*-----background position found on W3schools---*/
+    /*-----background position found on CSS Tricks - perfect full page bg img---*/
     background-repeat: no repeat;
-    background-position: center center;
-    background-position: fixed;
+    background-position: left bottom;
+    background-attachment: fixed;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    position: relative;
 
     display: flex;
     align-items: center;
