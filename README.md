@@ -9,39 +9,39 @@ This is a website for Watts Up Electric, an electrical service based in Co Kilda
 
 Check out Watts Up Electric [here](https://romy-morrin.github.io/watts-up-electric/)
 
-# UX Design
+## UX Design
 
-## User Stories
+### User Stories
 
-## Strategy
+### Strategy
 
-## Scope
+### Scope
 
-## Structure
+### Structure
 
-## Skeleton
+### Skeleton
 
- [Wireframes](link to wireframes)
+Find my Wireframes [here] for desktop, tablet and mobile (https://https://github.com/romy-morrin/watts-up-electric/raw/master/wireframes/)
 
- ## Surface
+### Surface
 
- # Features
+## Features
 
- ## Existing Features
+### Existing Features
 
- ## Features left to implement
+### Features left to implement
 
- # Technologies Used
+## Technologies Used
 
- # Testing
+## Testing
 
- # Version Control
+## Version Control
 
- # Deployment
+## Deployment
 
- # Credits
+## Credits
 
- # Acknowledgements
+## Acknowledgements
 
 
 
