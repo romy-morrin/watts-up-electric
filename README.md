@@ -71,7 +71,7 @@ I used Google fonts "Quicksand" and paired it with "Roboto", however I decided n
 
 #### Navigation Bar
 
-The navigation bar used displays the 4 sections of the website labelled "Home, Services, About, Contact". Bootstrap 4.6 helped me construct the navigation bar. I also used Bootstrap's toggle function so that the nav bar changes to a hamburger menu when shown on a mobile device. I initially had the navigation links to the left hand side of the menu on desktop view and then decided to position them to the centre of the menu. This added to the sites accessiblity. The nav links have a slightly bolder font weight than other text on the site. This again adds readability and accessbility. When clicked on, each link will bring the user to the respective section. The nav-links change to a darker colour when the cursor hovers over them. 
+The navigation bar used displays the 4 sections of the website labelled "Home, Services, About, Contact". Bootstrap 4.6 helped me construct the navigation bar. I also used Bootstrap's toggle function so that the nav bar changes to a hamburger menu when shown on a mobile device. I initially had the navigation links to the left hand side of the menu on desktop view and then decided to position them to the centre of the menu. This added to the sites accessiblity. The nav links have a slightly bolder font weight than other text on the site. This again adds readability and accessbility. When clicked on, each link will bring the user to the respective section. The nav-links change to a darker colour when the cursor hovers over them. The nav-bar also has a class of "fixed top" so that it follows the user as they scroll throught the page.
 
 #### Home Section
 The home section features a background image and a jumbotron. The background image has a background-attachment property with a value of fixed on desktop devices which gives a nice effect when scrolling through the site. The background image is position to the bottom left so as to show the tools and other objects in the image. I used a snippet of code from CSS Tricks [here](https://css-tricks.com/perfect-full-page-background-image/) to help position the background image correctly.I used Bootstrap components to create the jumbotron. I gave the jumbotron the same background color as the navigation bar so to show consistency in style across the home page. I positioned it to the centre of the home section and placed the Watts Up Electric logo at the top of the jumbotron with text and a callout button underneath it which directs the user to the contact section. 
@@ -112,27 +112,31 @@ This would include client feedback and reviews which could be left on the compan
 
 By following the user stories, the site has been constructed and tested to meet all the users needs so far. 
 
-*Navigation and Home Section* 
-The user can clearly identify how to navigate the page by using the navigation links. The text for the navigation links was made bolder, bigger and given a darker font-color after testing so to add contrast to the rest of the page and make them stand out for the user. The nav links were also positioned to the center of the nav to add to the sites accessibility.  The user can also click on the “Get in touch” button which has been clearly displayed in the middle of the home page. 
+##### *Navigation and Home Section* 
+The user can clearly identify how to navigate the page by using the navigation links. The text for the navigation links was made bolder, bigger and given a darker font-color after testing so to add contrast to the rest of the page and make them stand out for the user. The nav links were also positioned to the center of the nav to add to the sites accessibility. 
+
+![home-page-screenshot](https://github.com/romy-morrin/watts-up-electric/raw/master/wireframes/home-page-screenshot.png/ "home-page-screenshot")
 After testing, the overall font size on the page was changed from 80px to 1.5rem.This change made the font-size slightly larger thus improving the readability of the site.
 
-*Services Section*
+##### *Services Section*
 When the user scrolls down to the next section, they can see the services provided by the company. There is also another “Get in touch” button displayed here if the user wants to contact the company after reading the services. After testing, the “get in touch” button was positioned directly below the lists of services and centered underneath the sentence “if your services needs are not listed above”. This gives more focus to the button and makes it stand out for the user. 
+![services-section-screenshot](https://github.com/romy-morrin/watts-up-electric/raw/master/wireframes/services-section-screenshot.png/ "services-section-screenshot")
 
-*About Section*
+##### *About Section*
 The user can scroll to the about section and read more information about the company. The user can also learn here that the company is registered with Safe Electric Ireland by seeing the Safe Electric logo displayed. 
 
-*Contact Section*
+##### *Contact Section*
 The user can then get in touch with the company by easily scrolling to the contact section. Here they can fill out the form. If they do not provide a first name, last name, valid email address and tick one of the services button, the user will be prompted to do so in order to complete the form. They will also be given the option to provide additional details for the company if they feel it is relevant. This section also provides the user with the company’s contact details here if they wish to contact the company directly. On desktop screens, the form and contact details are stacked beside each other. Before testing, this was the same for tablet devices. However, after testing, the display was changed on tablet devices so that the form stacks on top of the contact details. This improves the layout of this section on tablets.
+
+![contact-tablet-screenshot](https://github.com/romy-morrin/watts-up-electric/raw/master/wireframes/contact-tablet-screenshot.png/ "contact-tablet-screenshot")
 
 Testing was conducted across several browsers (Chrome, Firefox Mozilla, Safari) and across several devices (iPhone 11, iPhone 6S, iPad, Samsung Galaxy).
 
-*Overflow issues*
+##### *Overflow issues*
 When testing the site on smaller devices, the headings for each section were spilling out over the desired outlines of the site. In order to address this issue, I added a media query to my CSS code and targeted the font-size, margin and padding of the three sections (services, about & contact) so that they would no longer distort the display on smaller screens. 
 
-*Background Img Issues*
+##### *Background Image Issues*
 When testing the site on my phone and tablet, the background image on the home page looked zoomed in and didn’t give the desired effect that it gave on my laptop. I added another media query to troubleshoot this issue. I added the same class I had previously used for the background image and edited one of the style properties, background-attachment, so that on tablet screen sizes and smaller, it would have a value of “scoll” rather than “fixed”. This resolved the issue. 
-Testing was conducted across several browsers (Chrome, Firefox Mozilla, Safari) and across several devices (iPhone 11, iPhone 6S, iPad, Samsung Galaxy) to ensure compatibility and effectiveness. 
 
 
 * Passed through HTML validator [here](https://validator.w3.org/) with no issues.
