@@ -7,7 +7,7 @@
 
 This is a website for Watts Up Electric, an electrical service based in Co Kildare, Ireland. The main objective of this website is to provide information for potential customers who need either household or commercial electrical services. The site consists of 4 main sections, a home section, a services section, an about section and a contact section. 
 
-Check out Watts Up Electric [here](https://romy-morrin.github.io/watts-up-electric/)
+Check out Watts Up Electric [here](https://romy-morrin.github.io/watts-up-electric/).
 
 ## UX Design
 
@@ -40,7 +40,7 @@ It is a one page scrolling website with 4 main sections:
 * About section
 * Contact section
 
-Find my Wireframes for desktop, tablet and mobile [here](https://github.com/romy-morrin/watts-up-electric/tree/master/wireframes)
+Find my Wireframes for desktop, tablet and mobile [here](https://github.com/romy-morrin/watts-up-electric/tree/master/wireframes).
 
 My wireframes are slightly different from the live site. 
 
@@ -115,12 +115,10 @@ By following the user stories, the site has been constructed and tested to meet 
 ##### *Navigation and Home Section* 
 The user can clearly identify how to navigate the page by using the navigation links. The text for the navigation links was made bolder, bigger and given a darker font-color after testing so to add contrast to the rest of the page and make them stand out for the user. The nav links were also positioned to the center of the nav to add to the sites accessibility. 
 
-![home-page-screenshot](https://github.com/romy-morrin/watts-up-electric/raw/master/wireframes/home-page-screenshot.png/ "home-page-screenshot")
 After testing, the overall font size on the page was changed from 80px to 1.5rem.This change made the font-size slightly larger thus improving the readability of the site.
 
 ##### *Services Section*
 When the user scrolls down to the next section, they can see the services provided by the company. There is also another “Get in touch” button displayed here if the user wants to contact the company after reading the services. After testing, the “get in touch” button was positioned directly below the lists of services and centered underneath the sentence “if your services needs are not listed above”. This gives more focus to the button and makes it stand out for the user. 
-![services-section-screenshot](https://github.com/romy-morrin/watts-up-electric/raw/master/wireframes/services-section-screenshot.png/ "services-section-screenshot")
 
 ##### *About Section*
 The user can scroll to the about section and read more information about the company. The user can also learn here that the company is registered with Safe Electric Ireland by seeing the Safe Electric logo displayed. 
@@ -128,7 +126,7 @@ The user can scroll to the about section and read more information about the com
 ##### *Contact Section*
 The user can then get in touch with the company by easily scrolling to the contact section. Here they can fill out the form. If they do not provide a first name, last name, valid email address and tick one of the services button, the user will be prompted to do so in order to complete the form. They will also be given the option to provide additional details for the company if they feel it is relevant. This section also provides the user with the company’s contact details here if they wish to contact the company directly. On desktop screens, the form and contact details are stacked beside each other. Before testing, this was the same for tablet devices. However, after testing, the display was changed on tablet devices so that the form stacks on top of the contact details. This improves the layout of this section on tablets.
 
-![contact-tablet-screenshot](https://github.com/romy-morrin/watts-up-electric/raw/master/wireframes/contact-tablet-screenshot.png/ "contact-tablet-screenshot")
+Please find screenshots of sections after testing [in this folder](https://github.com/romy-morrin/watts-up-electric/tree/master/wireframes).
 
 Testing was conducted across several browsers (Chrome, Firefox Mozilla, Safari) and across several devices (iPhone 11, iPhone 6S, iPad, Samsung Galaxy).
 
@@ -157,29 +155,29 @@ The steps I took to deploy the project are:
 * URL was then displayed for the site. 
 
 ## Credits & Resources
-*Logo*
+##### *Logo*
 The Watts Up Electric Logo was developed by Siobhan Bailey at [Chickadee Design](https://www.chickadeedesignbysmb.com/bio)
 
-*CSS tricks*
+##### *CSS tricks*
 I used a snippet of code and edited it from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/) to help position the background image in home section.
 
-*Adobe stock*
+###### *Adobe stock*
 I used [Adobe Stock](https://stock.adobe.com/) for the images used on the site.
 
-*Services/About Content*
+##### *Services/About Content*
 The business owner supplied me with the content for these sections and I edited the content while developing the site. The business owner approved the edited version.
 
-*Bootstrap*
+##### *Bootstrap*
 I used and edited code from Bootstrap [documentation](https://getbootstrap.com/docs/4.6/getting-started/introduction/) for the navigation menu/hamburger menu, the jumbotron, the grid layout and  the form in the contact section. 
 
-*Icons*
+##### *Icons*
 I used icons from [Font Awesome](https://fontawesome.com/)
 
-*Font*
+##### *Font*
 I used [Google Fonts](https://fonts.google.com/)
 
 ## Acknowledgements
-I'd like to thank Luke Morrin, the owner of Watts Up Electric for his help in developing the site. I'd also like to thank Siobhan Bailey for providing the logo. Special thanks to my mentor Brian Macaria for his help and support throughout the process. 
+I'd like to thank Luke Morrin, the owner of Watts Up Electric for his help in developing the site. I'd also like to thank Siobhan Bailey for providing the logo. Special thanks to my mentor Brian Macharia for his help and support throughout the process. 
 
 
 
