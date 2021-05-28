@@ -140,18 +140,42 @@ Testing was conducted across several browsers (Chrome, Firefox Mozilla, Safari) 
 
 
 ## Version Control
+Gitpod and Github were used for version control and there is only one master branch. 
 
 ## Deployment
-Github pages
+The project was created in Gitpod and then pushed to Github as a repository. 
 
-## Credits
-Logo, CSS tricks, Adobe stock, Bootstrap for form and nav, 
+The steps I took to deploy the project are:
 
-## Resources
-W3schools, Code Intsitute tutorials, 
+* Open settings tab on Github repository.
+* Navigate to Pages.
+* Under source, select the master branch and save. 
+* URL was then displayed for the site. 
+
+## Credits & Resources
+*Logo*
+The Watts Up Electric Logo was developed by Siobhan Bailey at [Chickadee Design](https://www.chickadeedesignbysmb.com/bio)
+
+*CSS tricks*
+I used a snippet of code and edited it from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/) to help position the background image in home section.
+
+*Adobe stock*
+I used [Adobe Stock](https://stock.adobe.com/) for the images used on the site.
+
+*Services/About Content*
+The business owner supplied me with the content for these sections and I edited the content while developing the site. The business owner approved the edited version.
+
+*Bootstrap*
+I used and edited code from Bootstrap [documentation](https://getbootstrap.com/docs/4.6/getting-started/introduction/) for the navigation menu/hamburger menu, the jumbotron, the grid layout and  the form in the contact section. 
+
+*Icons*
+I used icons from [Font Awesome](https://fontawesome.com/)
+
+*Font*
+I used [Google Fonts](https://fonts.google.com/)
 
 ## Acknowledgements
-Thanks to company owner, friends and family, Brian mentor
+I'd like to thank Luke Morrin, the owner of Watts Up Electric for his help in developing the site. I'd also like to thank Siobhan Bailey for providing the logo. Special thanks to my mentor Brian Macaria for his help and support throughout the process. 
 
 
 
