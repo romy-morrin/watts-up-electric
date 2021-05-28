@@ -55,11 +55,11 @@ I thought the second image in the services section may looked too crammed on a m
 
 #### Images
 
-I used [Adobe Stock](https://stock.adobe.com/)for the images used on the site. The business owner and I discussed what kind of hero image to use as a background for the home section. The business owner made it clear that they wanted an image that showed practicality (work tools) and one that had warm tones and colours. I looked around on websites for free images but unfortunately couldn't find any so I decided to use this one from Adobe. 
+I used [Adobe Stock](https://stock.adobe.com/) for the images used on the site. The business owner and I discussed what kind of hero image to use as a background for the home section. The business owner made it clear that they wanted an image that showed practicality (work tools) and one that had warm tones and colours. 
 
 #### Colour
 
-The grey tones of the background image in the home page are used across the site. I decided the match the jumbotron with the light grey color of the navigation menu. I picked a slightly darker grey color for the About section and matched the footer with this. The services section and contact section both have default white backgrounds as I believe this gives a nice contrast with the other grey backgrounds. The green used in the logo is replicated throughtout the site in the callout buttons which are in the home section and the services section. 
+The grey tones of the background image in the home page are used across the site. I decided to match the jumbotron with the light grey color of the navigation menu. I picked a slightly darker grey color for the About section and matched the footer with this. The services section and contact section both have default white backgrounds as I believe this gives a nice contrast with the other grey backgrounds. The green used in the logo is replicated throughtout the site in the callout buttons which are in the home section and the services section. 
 
 #### Typography
 
@@ -90,25 +90,50 @@ The footer displays the name of the company, which is positioned to the center o
 
 ### Features left to implement
 
-This site will continue to be developed in the future. Other feautures that 
+Other features that may be added to the site in the future include:
 
-Testimonial page, social media links added to footer, functioning form in contact section, 
+* Social Media links - 
+At the time of completing this version of the site, the business owner does not have any social media sites related to the company. In the future, once these pages are established, social media links may be added to the site. They will be included in the footer. 
+
+* A testimonial page - 
+This would include client feedback and reviews which could be left on the company’s social media pages and then uploaded to the website. 
 
 ## Technologies Used
-### Languages
 * HTML 5
 * CSS3
-* JQuery - Used this bootstrap feature to implement the hamburger menu for the navigation bar when on a mobile device.
 
-### Integration
 * Bootstrap v4.6 - Used for grid layout, navigation bar and form features. 
 * Google fonts - font style given across the site. 
 * Fontawesome Icons - icons used in services sections. 
 
-### Other
-Balsamiqu Wireframes - Used to create wireframes for the site. 
+* Balsamiqu Wireframes
 
 ## Testing
+
+By following the user stories, the site has been constructed and tested to meet all the users needs so far. 
+
+*Navigation and Home Section* 
+The user can clearly identify how to navigate the page by using the navigation links. The text for the navigation links was made bolder, bigger and given a darker font-color after testing so to add contrast to the rest of the page and make them stand out for the user. The nav links were also positioned to the center of the nav to add to the sites accessibility.  The user can also click on the “Get in touch” button which has been clearly displayed in the middle of the home page. 
+After testing, the overall font size on the page was changed from 80px to 1.5rem.This change made the font-size slightly larger thus improving the readability of the site.
+
+*Services Section*
+When the user scrolls down to the next section, they can see the services provided by the company. There is also another “Get in touch” button displayed here if the user wants to contact the company after reading the services. After testing, the “get in touch” button was positioned directly below the lists of services and centered underneath the sentence “if your services needs are not listed above”. This gives more focus to the button and makes it stand out for the user. 
+
+*About Section*
+The user can scroll to the about section and read more information about the company. The user can also learn here that the company is registered with Safe Electric Ireland by seeing the Safe Electric logo displayed. 
+
+*Contact Section*
+The user can then get in touch with the company by easily scrolling to the contact section. Here they can fill out the form. If they do not provide a first name, last name, valid email address and tick one of the services button, the user will be prompted to do so in order to complete the form. They will also be given the option to provide additional details for the company if they feel it is relevant. This section also provides the user with the company’s contact details here if they wish to contact the company directly. On desktop screens, the form and contact details are stacked beside each other. Before testing, this was the same for tablet devices. However, after testing, the display was changed on tablet devices so that the form stacks on top of the contact details. This improves the layout of this section on tablets.
+
+Testing was conducted across several browsers (Chrome, Firefox Mozilla, Safari) and across several devices (iPhone 11, iPhone 6S, iPad, Samsung Galaxy).
+
+*Overflow issues*
+When testing the site on smaller devices, the headings for each section were spilling out over the desired outlines of the site. In order to address this issue, I added a media query to my CSS code and targeted the font-size, margin and padding of the three sections (services, about & contact) so that they would no longer distort the display on smaller screens. 
+
+*Background Img Issues*
+When testing the site on my phone and tablet, the background image on the home page looked zoomed in and didn’t give the desired effect that it gave on my laptop. I added another media query to troubleshoot this issue. I added the same class I had previously used for the background image and edited one of the style properties, background-attachment, so that on tablet screen sizes and smaller, it would have a value of “scoll” rather than “fixed”. This resolved the issue. 
+Testing was conducted across several browsers (Chrome, Firefox Mozilla, Safari) and across several devices (iPhone 11, iPhone 6S, iPad, Samsung Galaxy) to ensure compatibility and effectiveness. 
+
 
 * Passed through HTML validator [here](https://validator.w3.org/) with no issues.
 * Passed through CSS validator [here](https://jigsaw.w3.org/css-validator/) with no issues. 
