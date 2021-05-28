@@ -170,14 +170,8 @@ If you want to make a clone of the project you will have to:
 * Under the repository name click on the button that says "clone or download". 
 * If cloning with HTTPS, copy the link that says "Clone with HTTPS"
 * Open Gitbash 
-
-
-The steps I took to deploy the project are:
-
-* Open settings tab on Github repository.
-* Navigate to Pages.
-* Under source, select the master branch and save. 
-* URL was then displayed for the site. 
+* change the working directory to the location you want the clone directory
+* Type git clone and copy the url.
 
 ## Credits & Resources
 #### *Logo*
