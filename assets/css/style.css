@@ -123,6 +123,10 @@ p {
     padding: 25px;
 }
 
+.form {
+    margin-bottom: 30px;
+}
+
 /*-------------------------footer--*/
 footer {
     background-color: #c1c1c1;
