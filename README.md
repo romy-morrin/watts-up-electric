@@ -147,6 +147,31 @@ Gitpod and Github were used for version control and there is only one master bra
 ## Deployment
 The project was created in Gitpod and then pushed to Github as a repository. 
 
+#### Adding and Commiting Files
+
+To add files to the repository you will have to:
+* Type "git add . " in the command line 
+* Then type "git commit -m" followed by your commit message
+* Then type "git push" to push your changes to send your new work to the repository. 
+
+#### Deploying the site
+
+To deploy the project you will have to:
+* Login to Github
+* Click the settings button when in the repository
+* Scroll down to the pages section
+* Under source, click the dropdown called "none" and change it to master branch
+* The page will automatically refresh and display a url link to the website.
+
+#### Cloning 
+
+If you want to make a clone of the project you will have to:
+* Login to Github and find your repository
+* Under the repository name click on the button that says "clone or download". 
+* If cloning with HTTPS, copy the link that says "Clone with HTTPS"
+* Open Gitbash 
+
+
 The steps I took to deploy the project are:
 
 * Open settings tab on Github repository.
@@ -155,25 +180,25 @@ The steps I took to deploy the project are:
 * URL was then displayed for the site. 
 
 ## Credits & Resources
-##### *Logo*
+#### *Logo*
 The Watts Up Electric Logo was developed by Siobhan Bailey at [Chickadee Design](https://www.chickadeedesignbysmb.com/bio)
 
-##### *CSS tricks*
+#### *CSS tricks*
 I used a snippet of code and edited it from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/) to help position the background image in home section.
 
-###### *Adobe stock*
+#### *Adobe stock*
 I used [Adobe Stock](https://stock.adobe.com/) for the images used on the site.
 
-##### *Services/About Content*
+#### *Services/About Content*
 The business owner supplied me with the content for these sections and I edited the content while developing the site. The business owner approved the edited version.
 
-##### *Bootstrap*
+#### *Bootstrap*
 I used and edited code from Bootstrap [documentation](https://getbootstrap.com/docs/4.6/getting-started/introduction/) for the navigation menu/hamburger menu, the jumbotron, the grid layout and  the form in the contact section. 
 
-##### *Icons*
+#### *Icons*
 I used icons from [Font Awesome](https://fontawesome.com/)
 
-##### *Font*
+#### *Font*
 I used [Google Fonts](https://fonts.google.com/)
 
 ## Acknowledgements
